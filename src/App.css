@@ -1,0 +1,124 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url('https://cutewallpaper.org/25/animated-gif-wallpaper-pixel-city/comfy-pixels-pixel-city-pixel-art-background-pixel-art.gif');
+  background-repeat: no-repeat;
+  background-size: 1500px;
+}
+.text{
+  text-align: center  ;
+  backdrop-filter: blur(150px);
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  size: 10%;
+  color:#ffffff
+  
+}
+.box1{
+  height: 500px;
+  width: 600px;
+  backdrop-filter: blur(15px);
+  opacity: 10px;
+  margin-left: -100px;
+  border-radius: 10%;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login,
+.register {
+  width: 400px;
+}
+
+.login h2,
+.register h2 {
+  font-size: 45px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.login a {
+  text-align: center;
+}
+.table{
+  border-color: rgb(255, 255, 255);
+  border-style:calc();
+  background-color: #4872c6;
+}
+input[type='text'] {
+  background-color: #e6e6e6;
+  color: #31314a;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+  width: 85%;
+  padding: 20px 30px;
+}
+
+input[type='number'] {
+  background-color: #e6e6e6;
+  padding: 20px 30px;
+  color: #333347;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+  width: 85%;
+}
+
+input[type='submit'] {
+  padding: 15px 0px;
+  background-color: #3b2dd18a;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  width: 100%;
+}
+button[type='submit'] {
+  padding: 15px 0px;
+  background-color: #34338b;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  width: 100%;
+}
+
+
+.check {
+  font-size: 16px;
+}
+td{
+  backdrop-filter: blur(15px);
+  padding:10px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(79, 119, 198);
+  text-transform: capitalize;
+}
+th{
+  text-transform: uppercase;
+  backdrop-filter: blur(15px);
+  padding:10px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+}
